@@ -1,0 +1,159 @@
+/* Full page container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;              /* full height */
+  width: 100vw; 
+  border:1px solid black;             /* full width */
+  background: #f9f9f9;        /* light background color */
+  font-family: Arial, sans-serif;
+    background: url("https://img.freepik.com/free-photo/top-view-world-heart-day-concept_23-2148630969.jpg?semt=ais_hybrid&w=740&q=80") 
+              no-repeat center center;
+  background-size:100% ,9%;
+  
+}
+
+/* Box is only for spacing, no white background */
+.login-box {
+  width: 100%;
+  max-width: 450px;
+  padding: 90px;
+   opacity:0.9;
+  background-color: #fff;
+    border:1px solid black;             /* full width */
+border-radius: 30px;
+  text-align: left;
+   /* semi-transparent white */
+ 
+
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.logo-icon {
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Welcome text */
+.welcome-text {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+/* Form */
+.form-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f5f7fa;
+  font-size: 14px;
+}
+
+/* Button */
+.login-btn {
+  padding: 12px 25px;
+  background: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 200px;
+}
+.login-btn:hover {
+  background: #0056b3;
+}
+
+/* Links */
+.extra-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+.link-btn {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 14px;
+}
+.link-btn:hover {
+  text-decoration: underline;
+}
+/* Navbar */
+.navbar {
+  position: fixed;  /* stays on top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 1px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  z-index: 1000;
+  opacity: 0.9;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08); /* subtle shadow instead of border */
+}
+
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #121314;
+}
+.login-link {
+  background: #f5f5f5;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.login-link:hover {
+  background: #0775c9;
+}
